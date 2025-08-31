@@ -1,0 +1,20 @@
+version: "3.8"
+services:
+  bot:
+    build: .
+    container_name: forex-autobot-node
+    restart: unless-stopped
+    environment:
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+      - ADMIN_TELEGRAM_USER_IDS=${ADMIN_TELEGRAM_USER_IDS}
+      - ADMIN_PHONE_NUMBERS=${ADMIN_PHONE_NUMBERS}
+      - AUTO_TRADE=${AUTO_TRADE}
+      - BOT_ENABLED=${BOT_ENABLED}
+      - RISK_PER_TRADE=${RISK_PER_TRADE}
+      - DAILY_PROFIT_TARGET_MIN=${DAILY_PROFIT_TARGET_MIN}
+      - DAILY_PROFIT_TARGET_MAX=${DAILY_PROFIT_TARGET_MAX}
+      - MAX_DRAWDOWN_PERCENT=${MAX_DRAWDOWN_PERCENT}
+      - MT5_BRIDGE_URL=${MT5_BRIDGE_URL}
+      - MT5_BRIDGE_API_KEY=${MT5_BRIDGE_API_KEY}
+    ports:
+      - "3000:3000"
