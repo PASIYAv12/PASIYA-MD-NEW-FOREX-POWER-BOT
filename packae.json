@@ -29,3 +29,7 @@
     "typescript": "^5.5.4"
   }
 }
+"scripts": {
+  "start": "node dist/index.js",
+  "build": "tsc"
+}
