@@ -1,30 +1,19 @@
 {
-  "name": "forex-autobot-node",
-  "description": "Forex Auto Trading Bot with Telegram Control + MT5 Auto Trading",
+  "name": "Forex AutoBot Node",
+  "description": "Telegram Forex Bot with MT5 bridge",
   "env": {
-    "TELEGRAM_BOT_TOKEN": {
-      "value": "8067527058:AAFd66Gf3UXUseiGGM725gbZeqwRso2EwBg"
-    },
-    "ADMIN_TELEGRAM_USER_IDS": {
-      "value": "947845488818,94766359869"
-    },
-    "ADMIN_PHONE_NUMBERS": {
-      "value": "947845488818,94766359869"
-    },
-    "MT5_BRIDGE_URL": {
-      "value": "https://your-mt5-bridge-server.com"
-    },
-    "MT5_BRIDGE_API_KEY": {
-      "value": "changeme"
-    },
-    "MT5_SERVER": {
-      "value": "Exness-MT5Trial"
-    },
-    "MT5_LOGIN": {
-      "value": "12345678"
-    },
-    "MT5_PASSWORD": {
-      "value": "yourpassword"
-    }
+    "TELEGRAM_BOT_TOKEN": { "value": "8067527058:AAFd66Gf3UXUseiGGM725gbZeqwRso2EwBg" },
+    "ADMIN_TELEGRAM_USER_IDS": { "value": "947845488818,94766359869" },
+    "MT5_BRIDGE_URL": { "value": "https://your-mt5-bridge-server.com" },
+    "MT5_BRIDGE_API_KEY": { "value": "changeme" },
+    "MT5_SERVER": { "value": "Exness-MT5Trial" },
+    "MT5_LOGIN": { "value": "12345678" },
+    "MT5_PASSWORD": { "value": "yourpassword" },
+    "AUTO_TRADE": { "value": "true" },
+    "BOT_ENABLED": { "value": "true" },
+    "RISK_PER_TRADE": { "value": "0.01" },
+    "DAILY_PROFIT_TARGET_MIN": { "value": "50000" },
+    "DAILY_PROFIT_TARGET_MAX": { "value": "500000" },
+    "MAX_DRAWDOWN_PERCENT": { "value": "5" }
   }
 }
