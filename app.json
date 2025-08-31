@@ -1,0 +1,51 @@
+{
+  "name": "Forex AutoBot Node (MT5 Bridge)",
+  "description": "Telegram-controlled forex bot with admin menu & MT5 bridge placeholders. For education only.",
+  "repository": "https://example.com/your-repo",
+  "keywords": ["forex", "telegram", "mt5", "trading", "nodejs", "typescript"],
+  "env": {
+    "TELEGRAM_BOT_TOKEN": {
+      "description": "Your Telegram Bot Token",
+      "required": true
+    },
+    "ADMIN_TELEGRAM_USER_IDS": {
+      "description": "Comma-separated Telegram user IDs allowed to control the bot",
+      "required": true
+    },
+    "ADMIN_PHONE_NUMBERS": {
+      "description": "Optional: E.164 phone numbers for extra verification (comma-separated)",
+      "required": false
+    },
+    "AUTO_TRADE": {
+      "value": "false"
+    },
+    "BOT_ENABLED": {
+      "value": "true"
+    },
+    "RISK_PER_TRADE": {
+      "value": "0.01"
+    },
+    "DAILY_PROFIT_TARGET_MIN": {
+      "value": "50000"
+    },
+    "DAILY_PROFIT_TARGET_MAX": {
+      "value": "500000"
+    },
+    "MAX_DRAWDOWN_PERCENT": {
+      "value": "5"
+    },
+    "MT5_BRIDGE_URL": {
+      "value": "http://localhost:8787"
+    },
+    "MT5_BRIDGE_API_KEY": {
+      "value": "changeme"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "image": "heroku/nodejs"
+}
