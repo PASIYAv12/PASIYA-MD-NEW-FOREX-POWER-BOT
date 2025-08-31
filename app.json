@@ -1,7 +1,7 @@
 {
   "name": "forex-autobot-node",
   "description": "Telegram-controlled Forex Auto Trading Bot with MT5 bridge. For education only.",
-  "repository": "https://example.com/your-repo",
+  "repository": "https://heroku.com/deploy?template=https://github.com/PASIYAv12/PASIYA-MD-NEW-FOREX-POWER-BOT.git",
   "keywords": ["forex", "telegram", "mt5", "trading", "nodejs", "typescript"],
   "env": {
     "TELEGRAM_BOT_TOKEN": {
