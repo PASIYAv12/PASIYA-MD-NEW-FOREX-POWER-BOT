@@ -1,19 +1,22 @@
 {
-  "name": "Forex AutoBot Node (MT5 Bridge)",
-  "description": "Telegram-controlled forex bot with admin menu & MT5 bridge placeholders. For education only.",
+  "name": "forex-autobot-node",
+  "description": "Telegram-controlled Forex Auto Trading Bot with MT5 bridge. For education only.",
   "repository": "https://example.com/your-repo",
   "keywords": ["forex", "telegram", "mt5", "trading", "nodejs", "typescript"],
   "env": {
     "TELEGRAM_BOT_TOKEN": {
       "description": "Your Telegram Bot Token",
+      "value": "8067527058:AAFd66Gf3UXUseiGGM725gbZeqwRso2EwBg",
       "required": true
     },
     "ADMIN_TELEGRAM_USER_IDS": {
       "description": "Comma-separated Telegram user IDs allowed to control the bot",
+      "value": "947845488818,94766359869",
       "required": true
     },
     "ADMIN_PHONE_NUMBERS": {
       "description": "Optional: E.164 phone numbers for extra verification (comma-separated)",
+      "value": "947845488818,94766359869",
       "required": false
     },
     "AUTO_TRADE": {
@@ -35,22 +38,6 @@
       "value": "5"
     },
     "MT5_BRIDGE_URL": {
-      "value": "http://localhost:8787"
-    },
-    "MT5_BRIDGE_API_KEY": {
-      "value": "changeme"
-    }
-    {
-  "name": "forex-autobot-node",
-  "description": "Forex Auto Trading Bot with Telegram Control",
-  "env": {
-    "TELEGRAM_BOT_TOKEN": {
-      "value": "8067527058:AAFd66Gf3UXUseiGGM725gbZeqwRso2EwBg"
-    },
-    "ADMIN_TELEGRAM_USER_IDS": {
-      "value": "947845488818,94766359869"
-    },
-    "MT5_BRIDGE_URL": {
       "value": "https://your-mt5-bridge-server.com"
     },
     "MT5_BRIDGE_API_KEY": {
@@ -65,8 +52,6 @@
     "MT5_PASSWORD": {
       "value": "yourpassword"
     }
-  }
-  }
   },
   "formation": {
     "web": {
