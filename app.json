@@ -1,7 +1,7 @@
 {
   "name": "forex-mt5-bot",
   "description": "MT5 Forex Trading Bot with Telegram integration",
-  "repository": "https://github.com/YOUR_GITHUB/forex-mt5-bot",
+  "repository": "https://github.com/PASIYAv12/PASIYA-MD-NEW-FOREX-POWER-BOT.git",
   "env": {
     "TELEGRAM_BOT_TOKEN": {
       "description": "Your Telegram bot token",
