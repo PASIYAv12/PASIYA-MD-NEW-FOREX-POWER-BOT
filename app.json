@@ -1,0 +1,31 @@
+{
+  "name": "forex-mt5-bot",
+  "description": "MT5 Forex Trading Bot with Telegram integration",
+  "repository": "https://github.com/YOUR_GITHUB/forex-mt5-bot",
+  "env": {
+    "TELEGRAM_BOT_TOKEN": {
+      "description": "Your Telegram bot token",
+      "required": true
+    },
+    "TELEGRAM_API_ID": {
+      "description": "Telegram API ID",
+      "required": true
+    },
+    "TELEGRAM_API_HASH": {
+      "description": "Telegram API Hash",
+      "required": true
+    },
+    "MT5_LOGIN": {
+      "description": "MT5 account login ID",
+      "required": true
+    },
+    "MT5_PASSWORD": {
+      "description": "MT5 account password",
+      "required": true
+    },
+    "MT5_SERVER": {
+      "description": "MT5 server name",
+      "required": true
+    }
+  }
+}
